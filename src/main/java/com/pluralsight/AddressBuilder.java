@@ -42,6 +42,8 @@ public class AddressBuilder {
         System.out.println("Please input your Shipping Zip Code: ");
         inputScanner();
 
+        addressBuilder.toString();
+
         System.out.println(addressBuilder);
 
     }
