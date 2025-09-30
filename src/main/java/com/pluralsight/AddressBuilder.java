@@ -48,6 +48,7 @@ public class AddressBuilder {
 
     }
     public static void inputScanner() {
-        addressBuilder.append(myScanner.nextLine());
+        String input = myScanner.nextLine();
+        addressBuilder.append(input.trim());
     }
 }
